@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body,p,h1,h2,h3,h4,h5,h6,a,span{
+  font-family: "Roboto", sans-serif;
+}
+.clear::after{
+  content: '';
+  clear: both;
+  display: block;
+  
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+img{
+  max-width: 100%;
+}
+/*............Header*/
+
+.header{
+  border: 1px solid black;
+  background: #000;
+  padding: 10px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+.logo h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 8px;
+  color: #fff;
+}
+.menu a{
+  color: #000;
+  padding: 10px 10px;
+  line-height: 40px;
+  margin-right: 10px;
+  color: #fff;
+}
+.menu a i{
+ font-size: 20px;
+}
+.menu .dot{
+  font-size: 25px;
+}
+
+
+
+
+.category{
+  color: #fff;
+  background: #0b121b;
+  padding: 30px 5px;
+  margin-top: 60px;
+}
+.category span{
+  padding: 10px 20px;
+  background: #242b31;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content{
+  background: #000;
+  margin-bottom: 50px;
+}
+.content .items{
+  padding: 8px 10px;
+  background: #0b121b;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.content .items .div-img{
+  width: 20%;
+}
+.content .items .div-img img{
+  height: 50px;
+  width: 50px;
+}
+
+.content .items .div-title{
+  width: 70%;
+}
+.content .items .div-title h3{
+  font-size: 18px;
+  font-weight: 600;
+}
+.content .items .div-title span{
+  font-size: 14px;
+  color: #8b9396;
+}
+
+.content .items .div-time{
+  width: 8%;
+}
+.content .items .div-time span{
+  font-size: 12px;
+  display: inline-block;
+ margin-left: -20px;
+ color: #8b9396;
+}
+
+
+
+
+
+
+.footer{
+  text-align: center;
+  background: #000;
+  margin-top: -10px;
+  position: fixed;
+  top: 94%;
+  width: 100%;
+}
+.footer .item1{
+  text-align: center;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.footer .item1 i{
+  font-size: 20px;
+  color: #fff;
+}
+.footer .item1 span{
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer .item1:hover{
+  background: rgba(0, 255, 0, .5);
+ 
+  border-radius: px;
+}
